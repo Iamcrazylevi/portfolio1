@@ -15,7 +15,8 @@ $posts = TCG\Voyager\Models\Post::all();
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="admin">Admin</a></li>
@@ -25,13 +26,13 @@ $posts = TCG\Voyager\Models\Post::all();
         </nav>
 
         <!-- About-->
-        <section class="about-section text-center" id="about">
+        <section class="about-section text-center" id="home">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-white mb-4">Home</h2>
                         <p class="text-white-50">
-                            Dit is de home page van mijn portfolio
+                            Hi! Welcome to my portfolio!
                         </p>
                     </div>
                 </div>
@@ -101,7 +102,7 @@ $posts = TCG\Voyager\Models\Post::all();
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="https://github.com/Iamcrazylevi/Portfolio"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://github.com/Iamcrazylevi"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </section>
