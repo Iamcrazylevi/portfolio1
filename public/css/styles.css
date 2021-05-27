@@ -65,7 +65,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #1c6fc2;
   text-align: left;
   background-color: #fff;
 }
@@ -9904,6 +9904,7 @@ button.bg-black:focus {
 
 .text-uppercase {
   text-transform: uppercase !important;
+  color: rgba(152, 4, 221, 0.9);
 }
 
 .text-capitalize {
@@ -10019,11 +10020,11 @@ a.text-black:hover, a.text-black:focus {
 }
 
 .text-black-50 {
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .text-hide {
@@ -10190,12 +10191,12 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -10287,7 +10288,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, rgba(109, 7, 156, 0.9) 0%, rgba(152, 4, 221, 0.9) 75%, rgba(109, 7, 156, 0.9) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -10295,6 +10296,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  height: 100px;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -10341,6 +10343,9 @@ body {
 
 .contact-section {
   padding-top: 5rem;
+  width: 1527px;
+  margin-left: -210px;
+  background: linear-gradient(to bottom, rgba(109, 7, 156, 0.9) 0%, rgba(152, 4, 221, 0.9) 75%, rgba(109, 7, 156, 0.9) 100%);
 }
 .contact-section .card {
   border: 0;
@@ -10353,9 +10358,9 @@ body {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #ffffff;
   border-width: 0.25rem;
-  width: 3rem;
+  width: 13rem;
 }
 .contact-section .social {
   margin-top: 5rem;
@@ -10364,16 +10369,21 @@ body {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(113, 196, 4, 0.1);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
 }
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
+  height: 3rem;
 }
 .contact-section .social a:active {
   color: #fff;
+}
+
+.copyright {
+  color:rgb(255, 255, 255);
 }
 
 .footer {
